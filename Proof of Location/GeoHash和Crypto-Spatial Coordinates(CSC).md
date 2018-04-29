@@ -10,6 +10,6 @@ GeoHash的优点是，对大部分编码而言，相似的编码距离也相近�
 
 ## Crypto-Spatial Coordinates（CSC）
 CSC是Foam.Space提出的一种基于GeoHash的加密的时空坐标，其核心是结合智能合约地址，让基于位置的智能合约的运行发生在指定的真实世界位置上。如下图所示，我们看看，它如何生成出来？
-![CSC Fig1](https://raw.githubusercontent.com/yaleeyang/BlockchainKnowledge/master/images/Crypto-Spatial-Coordinates.png)
+![CSC Fig1](https://raw.githubusercontent.com/yaleeyang/BlockchainKnowledge/master/images/Crypto-Spatial-Coordinates.png =680x)
 
 GeoHash地址和以太坊地址拼接后再用base58编码即为CSC编码地址，这种编码方式也是比特币钱包地址编码方式。CSC提供了一种结合位置和智能合约的编码模式，可以在1平方米的区域，绑定任意多的智能合约，从而将智能合约关联到物理空间。当然编码方式只是提供一种手段，真正的目的是提供唯一索引，还是在为PoL铺桥搭路。
